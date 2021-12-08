@@ -37,11 +37,11 @@ float analog , vout;
   sound=331+0.6*temp;
   duration = duration/2.0;
   distance = duration*sound*100/1000000;
-  Serial.print("距離");
+  Serial.print(distance);
   Serial.print("cm,");
-  Serial.print("温度");
+  Serial.print(temp);
   Serial.print("℃,");
-  Serial.print("音速");
+  Serial.print(sound);
   Serial.print("m/s\n");
   delay(1000);
 }
